@@ -9,17 +9,17 @@ Clone this repository to local folder then open the terminal in the cloneted fol
 
 ### About Folder and files
 1. Inside __root__ folder there is __*package.json*__ with *scripts* *modules* and other initial *config*, __*license*__ file with *license of template* __*.babelrc*__ with *babel config* and __*README.md*__ with *descriptions*.
-1. __public__ folder have the __*index.html*__ template,
+2. __public__ folder have the __*index.html*__ template,
   > __consider not put any more files in there__.
-1. __config__ folder have webpack __*development*__ and __*production*__ configurations
-1. __src__ folder have
-  1. __components__ there are personal react components
-  1. __media__ there are images and other media files
-  1. __store__ there is the redux
-  1. __pages__ there are the 'pages' of the SPA
-  1. __style__ have the sass style file
-  1. __*App.js*__ is the principal component of react
-  1. __*index.js*__ is the principal js file to react work on html page
+3. __config__ folder have webpack __*development*__ and __*production*__ configurations
+4. __src__ folder have
+  4. __components__ there are personal react components
+  4. __media__ there are images and other media files
+  4. __store__ there is the redux
+  4. __pages__ there are the 'pages' of the SPA
+  4. __style__ have the sass style file
+  4. __*App.js*__ is the principal component of react
+  4. __*index.js*__ is the principal js file to react work on html page
   
 ### About Scripts
 - _npm start_: initialize server in dev mode and open browser automatically
