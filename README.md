@@ -5,7 +5,8 @@
 ### About Template
 It's my simple react template created from **scratch** using webpack 4, it's use _redux_, _react-router-dom_, _sass compiler_, _file loader_ and others.
 
-Clone this repository to local folder then open the terminal in the cloneted folder and run `npm i` or `npm install` to install all necessary modules to this template work 
+Clone this repository to local folder then open the terminal in the cloneted folder and run `npm i` or `npm install` to install all necessary modules to this template work
+> instead of npm you can use yarn to execute all node scripts
 
 ### About Folder and files
 -. Inside __root__ folder there is __*package.json*__ with *scripts* *modules* and other initial *config*, __*license*__ file with *license of template* __*.babelrc*__ with *babel config* and __*README.md*__ with *descriptions*.
