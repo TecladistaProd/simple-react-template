@@ -10,7 +10,7 @@ import { Provider } from 'react-redux'
 import store from './store'
 
 //import components
-import Header from './componenents/Header'
+import Header from './components/Header'
 
 //import pages
 import Post from './pages/Post'
@@ -30,7 +30,7 @@ export default class App extends Component {
       <Router>
         <Provider store={store}>
           <div>
-            <Header page={this.state.page}/>
+            <Header/>
             <div className='container'>
               <Route exact path='/' component={Home}/>
               <Route path='/posts' component={Post}/>
