@@ -10,7 +10,7 @@ Clone this repository to local folder then open the terminal in the cloneted fol
 ### About Folder and files
 -. Inside __root__ folder there is __*package.json*__ with *scripts* *modules* and other initial *config*, __*license*__ file with *license of template* __*.babelrc*__ with *babel config* and __*README.md*__ with *descriptions*.
 - __public__ folder have the __*index.html*__ template,
-  >- __consider not put any more files in there__.
+ > &nbsp;&nbsp;__consider not put any more files in there__.
 - __config__ folder have webpack __*development*__ and __*production*__ configurations
 - __src__ folder have: 
   - __components__ there are personal react components
