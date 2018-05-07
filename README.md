@@ -13,16 +13,16 @@ Clone this repository to local folder then open the terminal in the cloneted fol
   > __consider not put any more files in there__.
 3. __config__ folder have webpack __*development*__ and __*production*__ configurations
 4. __src__ folder have
-  - __components__ there are personal react components
-  - __media__ there are images and other media files
-  - __store__ there is the redux
-  - __pages__ there are the 'pages' of the SPA
-  - __style__ have the sass style file
-  - __*App.js*__ is the principal component of react
-  - __*index.js*__ is the principal js file to react work on html page
+  1. __components__ there are personal react components
+  2. __media__ there are images and other media files
+  3. __store__ there is the redux
+  4. __pages__ there are the 'pages' of the SPA
+  5. __style__ have the sass style file
+  6. __*App.js*__ is the principal component of react
+  7. __*index.js*__ is the principal js file to react work on html page
   
 ### About Scripts
-_npm start_: initialize server in dev mode and open browser automatically
-_npm run build_: create the build folder with the files for production
-_npm run prod_: create the build folder with the files for production and run a http server with builded files
-_npm test_: at the moment don't have integration with tests
+- _npm start_: initialize server in dev mode and open browser automatically
+- _npm run build_: create the build folder with the files for production
+- _npm run prod_: create the build folder with the files for production and run a http server with builded files
+- _npm test_: at the moment don't have integration with tests
