@@ -25,4 +25,4 @@ Clone this repository to local folder then open the terminal in the cloneted fol
 - _npm start_: initialize server in dev mode and open browser automatically
 - _npm run build_: create the build folder with the files for production
 - _npm run prod_: create the build folder with the files for production and run a http server with builded files
-- _npm test_: at the moment don't have integration with tests
+- _npm test_: at the moment don't have any integration with tests
