@@ -50,6 +50,7 @@ module.exports = {
     new ETWP({filename: 'src/css/[name].css'}),
     new HWP({
       template: './public/index.html',
+      script: 'window.__REACT_DEVTOOLS_GLOBAL_HOOK__.inject = function () {}'
     })
   ],
 }
