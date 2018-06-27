@@ -27,3 +27,6 @@ Clone this repository to local folder then open the terminal in the cloneted fol
 - _npm run build_: create the build folder with the files for production
 - _npm run prod_: create the build folder with the files for production and run a http server with builded files
 - _npm test_: at the moment don't have any integration with tests
+
+### New Changes
+1. Now in Production mode, the react and redux dev-tools are disabled, but in dev mode are enabled.
