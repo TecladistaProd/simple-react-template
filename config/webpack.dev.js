@@ -1,6 +1,9 @@
 const path = require('path')
 const HWP = require('html-webpack-plugin')
 
+process.env.NODE_ENV = 'development'
+process.env.BABEL_ENV = 'development'
+
 module.exports = {
   entry: './src/index.js',
   output: {
@@ -40,6 +43,7 @@ module.exports = {
   ],
   devServer: {
     //contentBase: path.join(__dirname, '../public'),
+    port: 3000,
     historyApiFallback: true,
     //noInfo: true,
     overlay: true

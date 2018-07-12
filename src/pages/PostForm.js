@@ -10,17 +10,18 @@ class PostForm extends React.Component {
       title: '',
       body: ''
     }
-    this.onSubmit = e => {
-      e.preventDefault()
-      if(this.state.title !== '' && this.state.body !== ''){
-          const post = {
-            title: this.state.title,
-            body: this.state.body
-          }
-          this.setState({title: '', body: ''})
-          this.props.createPost(post)
-        }
+    // this.
+  }
+  onSubmit = e => {
+    e.preventDefault()
+    if (this.state.title !== '' && this.state.body !== '') {
+      const post = {
+        title: this.state.title,
+        body: this.state.body
       }
+      this.setState({ title: '', body: '' })
+      this.props.createPost(post)
+    }
   }
   render() {
     return (

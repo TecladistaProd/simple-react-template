@@ -4,6 +4,9 @@ const ETWP = require('extract-text-webpack-plugin')
 const CWP = require('clean-webpack-plugin')
 const fs = require('fs')
 
+process.env.NODE_ENV = 'production'
+process.env.BABEL_ENV = 'production'
+
 module.exports = {
   entry: './src/index.js',
   output: {
